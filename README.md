@@ -11,10 +11,10 @@ Files are downloaded to your _current working directory_.\
 
 # Usage
 
-Clone this repo .
+Clone this repo .<br>
 ```git clone https://github.com/charanmreddy/Playlist2PC.git```
-enter the repo
-```cd Playlist2PC```
+enter the folder<br>
+```cd Playlist2PC\Main```
 
 Download the requirements (requests , yt_dlp)
 ```pip install -r requirements.txt```
