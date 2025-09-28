@@ -7,6 +7,11 @@ import sys
 
 subprocess.check_call([sys.executable, "-m", "pip", "install", "yt_dlp"])
 
+DOWNLOAD_FOLDER = r"Path to your Destination Folder"
+
+if not os.path.exists(DOWNLOAD_FOLDER):
+    os.makedirs(DOWNLOAD_FOLDER)
+
 if not os.path.exists("downloaded_songs.txt"):
     file = open("downloaded_songs.txt",'w')
     file.close()        
@@ -14,7 +19,7 @@ if not os.path.exists("downloaded_songs.txt"):
 def download_audio(youtube_url):
     ydl_opts = {
         'format': 'bestaudio[ext=m4a]/bestaudio/best',
-        'outtmpl': '%(title)s.%(ext)s',
+        'outtmpl': os.path.join(DOWNLOAD_FOLDER, '%(title)s.%(ext)s'),
         'quiet': False,
         'ffmpeg_location': r"Your Path to \ffmpeg\bin",
     }
@@ -67,5 +72,6 @@ while True:
     nextPageToken = data.get('nextPageToken')
     if not nextPageToken:
         break
+
 
 f.close()
