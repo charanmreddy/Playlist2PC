@@ -18,6 +18,11 @@ Clone this repo .<br>
 <br>Download the requirements (requests , yt_dlp)<br>
 ```pip install -r requirements.txt```
 <br><br>
+
+### Add Destination Folder
+
+Add the Path to your destination folder for the variable `DOWNLOAD_FOLDER`<br>
+<br><br>
 ### Downloading ffmpeg
 
 This step is a must for the script to extract audio and convert to formats.
