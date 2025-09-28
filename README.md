@@ -13,10 +13,10 @@ Files are downloaded to your _current working directory_.\
 
 Clone this repo .<br>
 ```git clone https://github.com/charanmreddy/Playlist2PC.git```
-enter the folder<br>
+<br>enter the folder<br>
 ```cd Playlist2PC\Main```
 
-Download the requirements (requests , yt_dlp)
+<br>Download the requirements (requests , yt_dlp)
 ```pip install -r requirements.txt```
 <br><br>
 ### Downloading ffmpeg
