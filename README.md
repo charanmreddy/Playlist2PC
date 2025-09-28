@@ -32,7 +32,7 @@ This step is a must for the script to extract audio and convert to formats.
 The Playlist ID is a string , that refers to your YT Playlist .
 
 If you open a youtube Playlist on a browser , the marked part is the Playlist ID  
-![Example ID](images\plid.png)  
+![Example ID](images/plid.png)  
 It starts with **PL** and looks something like this :
 > PL08Qukwx7nDvSR7B8RgvfGZIbOd7T0wPu
 
