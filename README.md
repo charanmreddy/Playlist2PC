@@ -15,8 +15,7 @@ Clone this repo .<br>
 ```git clone https://github.com/charanmreddy/Playlist2PC.git```
 <br>enter the folder<br>
 ```cd Playlist2PC\Main```
-
-<br>Download the requirements (requests , yt_dlp)
+<br>Download the requirements (requests , yt_dlp)<br>
 ```pip install -r requirements.txt```
 <br><br>
 ### Downloading ffmpeg
