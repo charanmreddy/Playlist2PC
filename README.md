@@ -1,5 +1,5 @@
-# Playlist2PC
-Python script that automatically downloads all songs from a YouTube playlist to your local machine. It checks for existing downloads and downloads any new additions to to the playlist , each time you run the code .<br><br><br>
+<h1 align="center">Playlist2PC</h1>
+<p align="center">Python script that automatically downloads all songs from a YouTube playlist to your local machine. It checks for existing downloads and downloads any new additions to to the playlist , each time you run the code .</p></p><br><br><br>
 
 # Introduction
 
